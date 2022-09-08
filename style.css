@@ -14,29 +14,26 @@ h1, h2, h3{
   border-radius: 50%;
 }
 
-a{
-  text-decoration: none;
-  color: #9E7777;
-}
-
 .btn-brown{
+  text-decoration: none;
   margin: 20px, 0, 20px, 0;
   border: 2px solid;
   border-radius: 5%;
-  padding: 10px;
-  background-color: rgba(255, 0, 0, 0.5);
+  padding: 2%;
+  background-color: rgba(255, 0, 0, 0.7);
   animation: myfirst 5s linear 2s infinite alternate;
   color: whitesmoke;
   font-style: italic;
   border-radius: 2%;
   font-weight: bold;
   transition: 500ms;
+  font-size: 1vw;
 }
 
 .btn-brown:hover{
-  color: #6F4C5B;
-  font-style: italic;
-  text-decoration: underline;
+  padding: 4%;
+  font-size: 1.2vw;
+  border-radius: 30%;
 }
 
 .container{
@@ -55,7 +52,6 @@ ul{
 
 .heading-beige{
   color: #9E7777;
-  text-shadow: 0px 1px rgba(20, 20, 20, 0.2);
 }
 
 #social > li > a {
